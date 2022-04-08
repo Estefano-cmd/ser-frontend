@@ -20,9 +20,9 @@ html {
     display: block;
   }
 
-  .card{
+  /* .card{
       box-shadow: 0px 3px 2px 1px rgba(0, 0, 0, 0.2);
-  }
+  } */
   
   h1 {
     font-size: 2em;
@@ -9530,15 +9530,6 @@ html {
   }
 
   /* colores */
-  .container{
-    background-color: #204840;
-    width: 100%;
-    text-align: center;
-  }
-  .card-header{
-    color: #19443B;
-    font-weight: bold;
-  }
   .btn{
     background-color: #36917E;
     color: white;
@@ -9610,19 +9601,57 @@ html {
       color: #d1d2d2;
       padding: 0.7em 1em;
   }
-
-  .hexagon-menu2{
-    margin-left: 20%;
-    padding-bottom: 100px;
-  }
-
-  /* SER MIEMBRO */
-  .container3{
-    margin-left: 30%;
-  }
-
-header{
+.card{
+  width: 100% !important;
+}
+.card img{
+  height: 100%;
+    width: 100%;
+}
+.description{
+  text-align: center;
+}
+.container2{
+  background-color: #204840;
   width: 100%;
-  position: fixed;
-  z-index: 10;
+  text-align: center;
+  margin-top: 2%;
+}
+.card-header{
+  color: #19443B;
+  font-weight: bold;
+}
+.btn{
+  background-color: #36917E;
+  color: white;
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.container3{
+  overflow: hidden;
+}
+.description{
+  margin-top: 15%;
+  text-align: justify;
+}
+.donar{
+  color: #19443B !important;
+  width: 20vw;
+  align-items: center;
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.donar:hover {
+  text-decoration: none;
+  background-color: #19443B;
+  color: white !important;
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+  
+.icon{
+    display: block;
+    font-size: 36px;
+    line-height: 30px;
+    margin-bottom: 11px;
+    padding-top: 10px;
 }
